@@ -1,0 +1,20 @@
+{
+  "name": "mind-garden-tests",
+  "version": "1.0.0",
+  "description": "Property-based and unit tests for Mind Garden blog",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "fast-check": "^3.22.0",
+    "js-yaml": "^4.2.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

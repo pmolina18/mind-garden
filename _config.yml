@@ -1,0 +1,27 @@
+title: "Mind Garden"
+description: "A personal blog for thoughts on diverse topics"
+url: "https://pmolina18.github.io"
+baseurl: "/mind-garden"
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  posts_limit: 20
+
+# Navigation links (used by navigation.html include)
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Tags
+    url: /tags/
+  - title: Categories
+    url: /categories/
